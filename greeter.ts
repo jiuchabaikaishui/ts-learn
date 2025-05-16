@@ -1,3 +1,4 @@
+(function() {
 // function greeter(person: string) {
 //     return `hello ${person}!`
 // }
@@ -23,3 +24,4 @@ class Student {
 }
 user = new Student('Jan', 'M.', 'User')
 document.body.textContent = greeter(user)
+}())

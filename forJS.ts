@@ -1,3 +1,4 @@
+(function() {
 // 类型推断
 let helloWorld = 'Hello World'
 
@@ -92,3 +93,4 @@ class VirtualPoint {
 }
 const newVPoint = new VirtualPoint(1, 2)
 logPoint(newVPoint)
+}())
